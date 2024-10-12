@@ -5,8 +5,8 @@
     <groupId>com.ketoru</groupId>
     <artifactId>springframework-errors</artifactId>
     <version>0.0.8</version>
-    <name>spring-exception-handling</name>
-    <description>spring-exception-handling</description>
+    <name>springframework-errors</name>
+    <description>Spring Framework Errors</description>
     <url/>
     <licenses>
         <license/>
@@ -68,17 +68,6 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>idrixrealeasenexus</id>
-            <url>https://nexus.idrixlatam.com/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>idrixsnapshotnexus</id>
-            <url>https://nexus.idrixlatam.com/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <build>
         <plugins>
