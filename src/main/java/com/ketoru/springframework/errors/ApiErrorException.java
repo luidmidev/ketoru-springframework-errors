@@ -8,7 +8,7 @@ import org.springframework.http.ProblemDetail;
 public class ApiErrorException extends RuntimeException {
 
     private final HttpHeaders headers;
-    private final ProblemDetail body;
+    private final transient ProblemDetail body;
 
     public ApiErrorException(ProblemDetail body) {
         this(body, new HttpHeaders());

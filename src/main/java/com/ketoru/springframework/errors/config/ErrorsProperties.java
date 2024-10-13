@@ -10,4 +10,5 @@ import org.springframework.context.annotation.Configuration;
 public class ErrorsProperties {
     private boolean allErrors = false;
     private boolean logErrors = false;
+    private boolean sendStackTrace = false;
 }

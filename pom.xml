@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ketoru.springframework</groupId>
     <artifactId>springframework-errors</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>springframework-errors</name>
     <description>Spring Framework Errors</description>
     <url/>
@@ -41,6 +41,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <version>${spring.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>6.3.3</version>
         </dependency>
 
         <dependency>
